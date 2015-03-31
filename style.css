@@ -1,0 +1,47 @@
+body{margin:0}
+.curtain{width:49%;height:500px;background:gray;text-align:center;font-size:100px;opacity:0.5}
+
+#left{float:left;border-right:1px solid #000;
+-webkit-animation: left 1s forwards;
+-webkit-animation-delay: 2s;
+animation: left 0.5s forwards;
+animation-delay: 2s;}
+@-webkit-keyframes left {100% { width: 20px; }}
+@keyframes left {100% { width: 10px; }}
+
+
+#right{float:right;border-left:1px solid #000;
+-webkit-animation: right 1s forwards;
+-webkit-animation-delay: 2s;
+animation: right 0.5s forwards;
+animation-delay: 2s}
+@-webkit-keyframes right {100% { width: 20px; }}
+@keyframes right {100% { width: 10px; }}
+
+#object{width:100px;height:100px;background:blue;position:absolute;margin-left:32%;
+-webkit-animation: object 1s forwards;
+-webkit-animation-delay: 3s;
+animation: object 0.5s forwards;
+animation-delay: 3s}
+@-webkit-keyframes object {100% { width: 200px;height:200px;margin-top:100px }}
+@keyframes object {100% { width: 200px;height:200px;margin-top:100px }}
+
+#object2{width:50px;height:50px;background:green;position:absolute;margin-left:62%;opacity:0.1;
+-webkit-animation: object2 1s forwards;
+-webkit-animation-delay: 4s;
+animation: object2 0.5s forwards;
+animation-delay: 4s}
+@-webkit-keyframes object2 {100% { width: 200px;height:200px;margin-top:100px;opacity:1;border-radius:50% }}
+@keyframes object2 {100% { width: 200px;height:200px;margin-top:100px;opacity:1;border-radius:50% }}
+
+#object3{width:100%;height:50px;background:green;position:absolute;bottom:0;opacity:0.1;
+-webkit-animation: object3 1s forwards;
+-webkit-animation-delay: 5s;
+animation: object3 0.5s forwards;
+animation-delay: 5s}
+@-webkit-keyframes object3 {100% { height:150px;opacity:1 }}
+@keyframes object3 {100% { height:150px;opacity:1 }}
+
+
+
+
